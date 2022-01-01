@@ -17,7 +17,6 @@ public class CarouselCommand extends CommandBase {
   double sensorStartTime;
   
   final double sensorWaitTime = 0.04; // seconds
-  //TODO find a better value
   // must be the carousel's overshoot ticks divided by the ticks in one fith of a rotation
   final double earlySlotStopDelta = 1830.0/Constants.CAROUSEL_FIFTH_ROTATION_TICKS;
   
